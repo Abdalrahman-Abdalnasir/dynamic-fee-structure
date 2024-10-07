@@ -39,8 +39,8 @@
     $(document).ready(function() {
         $('#threshold_id').on('change', function() {
             var selectedOption = $(this).find('option:selected');
-            var percentage = selectedOption.data('percentage'); // الحصول على النسبة من البيانات المخزنة
-            $('#percentage').val(percentage); // تعيين النسبة في حقل النسبة
+            var percentage = selectedOption.data('percentage');
+            $('#percentage').val(percentage);
         });
     });
 </script>

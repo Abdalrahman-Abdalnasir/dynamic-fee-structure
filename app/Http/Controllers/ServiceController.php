@@ -1,6 +1,5 @@
 <?php
 
-// app/Http/Controllers/ServiceController.php
 namespace App\Http\Controllers;
 
 use App\Models\Service;
